@@ -1,0 +1,31 @@
+:root {
+    --primario: #1073ba;
+    --secundario: #00da55;
+    --gris: #3b3b3b;
+    --blanco: #ffffff;
+    --negro: #1f1e1e;
+    --grisClaro: #e1e1e1;
+    --separacion: 5rem;
+    --fuentePrincipal: "Roboto", serif;
+    --fuenteSecundaria: "Lato", serif;
+}
+
+
+/* Globales */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
