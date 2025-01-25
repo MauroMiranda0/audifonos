@@ -196,7 +196,6 @@ img {
     .sobre-producto {
         background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
         background-repeat: repeat, no-repeat;
-        background-size: 100%, 100rem;
     }
 }
 
@@ -238,10 +237,4 @@ img {
 .texto-producto p {
     font-size: 2rem;
     line-height: 2;
-}
-
-@media (min-width: 768px) {
-    .texto-producto {
-        grid-column: 1 / 2;
-    }
 }
